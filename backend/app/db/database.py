@@ -8,8 +8,8 @@ from app.core.config import settings
 engine = create_engine(
     settings.sqlalchemy_url,
     pool_pre_ping=True,
+    connect_args={"sslmode": "require"},
 )
-
 
 SessionLocal = sessionmaker(
     bind=engine,
@@ -24,7 +24,6 @@ class Base(DeclarativeBase):
 
 def get_db():
     db = SessionLocal()
-
     try:
         yield db
     finally:
