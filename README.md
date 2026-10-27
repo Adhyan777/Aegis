@@ -12,7 +12,7 @@ Aegis is a full-stack financial transaction monitoring dashboard that combines t
 - FastAPI
 - PostgreSQL (Neon)
 - SQLAlchemy
-- 
+  
 ## Overview
 
 Aegis brings transaction data, analytics, and fraud investigation into one interface. It is built to demonstrate full-stack engineering, API integration, database design, and explainable risk scoring.
