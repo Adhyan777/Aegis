@@ -2,6 +2,17 @@
 
 Aegis is a full-stack financial transaction monitoring dashboard that combines transaction analytics, rule-based fraud detection, and statistical anomaly analysis to help identify suspicious activity and explain risk signals.
 
+## 🚀 Live Demo
+
+- **Live Dashboard:** https://aegis-dashboard-nw8l.onrender.com/
+- **API Documentation:** https://aegis-api-fejl.onrender.com/docs
+
+### Tech Stack
+- React and TypeScript
+- FastAPI
+- PostgreSQL (Neon)
+- SQLAlchemy
+- 
 ## Overview
 
 Aegis brings transaction data, analytics, and fraud investigation into one interface. It is built to demonstrate full-stack engineering, API integration, database design, and explainable risk scoring.
